@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #comment
 i=0
-while [ $i -lt 10 ]
+while [ $i -lt 9 ]
 do
-echo "Best School"
 if (($i==8))
 then
 echo -e "Best School\nHi"
 fi
+echo "Best School"
 ((i++))
 done
