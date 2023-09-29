@@ -4,7 +4,7 @@ item = "school"
 if [ -e "$item"]
 then
 echo "school file exists"
-if [ -s "$item" ]
+if [ -n "$item" ]
 then
 echo "school file is not empty"
 else
