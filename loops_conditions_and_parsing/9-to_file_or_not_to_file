@@ -4,11 +4,11 @@ item = "school"
 if [ -e "$item"]
 then
 echo "school file exists"
-if [ -z "$item" ]
+if [ -s "$item" ]
 then
-echo "school file is empty"
-else
 echo "school file is not empty"
+else
+echo "school file is empty"
 fi
 if [ -f $item]
 then
