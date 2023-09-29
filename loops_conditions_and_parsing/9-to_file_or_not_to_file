@@ -3,7 +3,7 @@
 item = "school"
 if [ -e "$item"]
 then
-echo "School file exists"
+echo "school file exists"
 if [ -z "$item" ]
 then
 echo "school file is empty"
@@ -17,5 +17,5 @@ else
 continue
 fi
 else
-echo "School file doesnot exist"
+echo "school file doesnot exist"
 fi
