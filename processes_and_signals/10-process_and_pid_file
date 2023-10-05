@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Create a file containing the script's PID
+sudo bash -c "echo $$ > /var/run/myscript.pid"
